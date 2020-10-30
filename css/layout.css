@@ -218,10 +218,10 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   max-width:100%;
+   max-width:126%;
    height:auto;
    border-radius: 20%;
-   margin-left: -130px;
+   margin-left: -160px;
 }
 
 #about .contact-details { width: 41.66667%; }
