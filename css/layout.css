@@ -208,20 +208,23 @@ ul#nav li.current a { color: #F06000; }
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
-   margin-left: -86px;
+   /*margin-left: -86px; */
 }
 #about p {
    line-height: 30px;
    text-align: justify;
    color: #7A7A7A;
-   margin-left: -86px;
+   /* margin-left: -86px; */
 }
 #about .profile-pic {
-   position: relative;
-   max-width:126%;
+   position: relative; 
+   /* max-width:126%; */
+   /* max-width:126%;*/
+   /* height:auto; */
    height:auto;
+   max-width:100%;
    border-radius: 20%;
-   margin-left: -160px;
+   /* margin-left: -160px; */
 }
 
 #about .contact-details { width: 41.66667%; }
