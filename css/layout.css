@@ -336,7 +336,7 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 1px solid #E8E8E8;
 }
 #publications .info {
-   font: 16px/24px 'librebaskerville', serif;
+   font: 16px/24px 'opensans-regular', sans-serif;
    color: #313131;
    margin-bottom: 60px;
    margin-top: 2px;
@@ -353,6 +353,9 @@ ul#nav li.current a { color: #F06000; }
 #publications .orange {
    font: 16px/24px 'opensans-regular', sans-serif;
    color: #F06000;
+}
+#publications .orange:hover {
+   color: #F8B080;
 }
 #publications .date:hover {
    color: #70CDD0;
@@ -400,7 +403,7 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 1px solid #E8E8E8;
 }
 #experience .info {
-   font: 16px/24px 'librebaskerville', serif;
+   font: 16px/24px 'opensans-regular', sans-serif;
    color: #313131;
    margin-bottom: 18px;
    padding-bottom: 30px;
