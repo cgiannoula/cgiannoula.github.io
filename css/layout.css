@@ -222,7 +222,8 @@ ul#nav li.current a { color: #F06000; }
    /* max-width:126%;*/
    /* height:auto; */
    height:auto;
-   max-width:100%;
+   /* max-width:100%; */
+   width:300px;
    border-radius: 20%;
    /* margin-left: -160px; */
 }
