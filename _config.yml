@@ -1,1 +1,3 @@
-theme: jekyll-theme-cayman
+baseurl: "" # Leave this empty if your site is at the root domain.
+url: "https://cgiannoula.github.io/" # Your site's base URL.
+permalink: /blog/:year/:month/:day/:title/

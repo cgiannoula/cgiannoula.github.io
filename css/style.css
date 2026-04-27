@@ -1,0 +1,318 @@
+/* Your global font */
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+.nav-link {
+    font-size: 1.2em !important; /* 20% larger */
+    font-weight: 600 !important; /* Optional: also make them bolder */
+}
+
+/* Force icon fonts to load properly */
+.ai {
+    font-family: 'Academicons' !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1 !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+.fa, .fab, .fas, .far, .fal, .fa-brands {
+    font-family: 'Font Awesome 6 Free', 'Font Awesome 6 Brands' !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1 !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+.icon-link{
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+	width:40px;
+	height:40px;
+	line-height:0;
+	color:#3084de;
+	text-decoration:none;
+	z-index:1;
+  }
+
+.icon-link i{
+	display:block;
+	line-height:1;
+	pointer-events:none;
+}
+ 
+img.card-img-top {
+    margin-bottom: 10px; /* Adjust the value as needed */
+	width: auto;
+	height: 280px;
+}
+
+.custom-p {
+    margin-bottom: 2em; /* increase the default margin */
+    /*line-height: 1.2; Optional: also increase line height */
+}
+
+/* For Publications page */
+.publications-page {
+    max-width: 920px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.publications-page ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.publications-page h3.text-center {
+    margin-top: 2.8rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #d8e1ec;
+    display: inline-block;
+}
+
+.publication-item {
+    display: block;
+    padding: 1.25rem 1.4rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #e5ecf6;
+    border-radius: 14px;
+    background: #ffffff;
+    transition: box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.publication-item:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 22px rgba(19, 40, 75, 0.08);
+}
+
+.publication-item + .publication-item {
+    margin-top: 0.8rem;
+}
+
+.publication-item .content-column {
+    padding: 0;
+}
+
+.publication-item .title-line {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.55rem;
+    margin-bottom: 0.5rem;
+}
+
+.publication-item .title-line a {
+    font-size: 1.04rem;
+    font-weight: 700;
+    color: #0d2040;
+    text-decoration: none;
+}
+
+.publication-item .authors {
+    color: #475562;
+    line-height: 1.55;
+    margin-bottom: 0.35rem;
+    font-size: 0.96rem;
+}
+
+.publication-item .venue {
+    color: #5e6a82;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+}
+
+.publication-item .publication-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+    margin-top: 0.5rem;
+    color: #0056b3;
+    font-size: 0.94rem;
+}
+
+.publication-item .publication-meta a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.publication-item .publication-meta a:hover {
+    text-decoration: underline;
+}
+
+.publication-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: 999px;
+    border: 1px solid #d5e3f6;
+    background: #eef4ff;
+    color: #034e94;
+    padding: 0.28rem 0.75rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+#Banner {
+	/* background-image: url('../assets/img/background3.jpg');  */
+  	background-color: #0056b3; 
+ 	 /*height: 15vh;  */
+  	/*background-position: 50% 65%; */
+  	/*background-position: 50% 37%; */
+  	background-position: 50% 40%;
+  	background-repeat: no-repeat; 
+  	background-size: 100%, 100%; 
+  	color: #ffffff;
+}
+
+a {
+	color: #0056b3;
+  }
+
+a:hover {
+    color: #0056b3;
+}
+
+.orange-color {
+    color: #d4691b; 
+}
+
+.blue-color {
+    color: #0056b3; 
+}
+
+.blue-grey-color { 
+	color: #5e6a82; 
+	 
+}
+
+.wrapper { 
+	padding-left: 4px; 
+	display: block;
+}
+
+/*
+.badge {
+	display: inline-block; 
+	background: rgba(52, 152, 219, 0.1); 
+	backdrop-filter: blur(10px); 
+	border: 1px solid rgba(52, 152, 219, 0.2);
+	color: #2980b9; 
+	padding: 4px 10px; 
+	font-size: 14px; 
+	font-weight: 720; 
+	border-radius: 8px; 
+	margin-bottom: 1px; 
+	margin-top: 4px;
+}
+*/
+/*
+.badge {
+    display: inline-block;
+    background: rgba(0, 86, 179, 0.1);
+    border: 2px solid #0056b3;
+    color: #0056b3;
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+    margin-bottom: 1px; 
+	margin-top: 4px;
+}
+*/
+.badge {
+    display: inline-block;
+    background: #1f67b5; /* #0056b3;*/
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    margin-bottom: 1px;
+	margin-top: 4px;
+}
+
+.badge-column {
+    width: 120px;
+    flex-shrink: 0;
+}
+
+.content-column {
+    flex: 1;
+}
+
+.award-trophy {
+    color: #B8732F;
+    font-size: 1.32em;
+    margin-left: 6px;
+}
+
+/* For Service page */
+.years { 
+	color: #7686a1; 
+	font-weight: 500; 
+}
+.service-list {
+	list-style-type: none;
+	padding-left: 20px;
+}
+.service-list li {
+	margin-bottom: 8px;
+	padding: 5px 0;
+	border-bottom: 1px dotted #eee;
+}
+
+/* For Teaching page */
+.teaching-item {
+	display: flex;
+	align-items: center;
+	padding: 20px 0;
+	border-bottom: 1px solid #ddd;
+}
+.teaching-icon {
+	font-size: 18px;
+	margin-right: 16px;
+	margin-top: 2px;
+}
+.teaching-content {
+	flex: 1;
+	margin-left: 20px;
+}
+
+
+/* For Awards page */
+.award-year { 
+	color: #405374; 
+	font-weight: 600; 
+}
+.award-item {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+}
+.award-icon {
+	font-size: 18px;
+	margin-right: 16px;
+	margin-top: 2px;
+}
+.award-content {
+	flex: 1;
+}
+.award-paper-details {
+	font-style: italic;
+	color: #4b3426;
+}
