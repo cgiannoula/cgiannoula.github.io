@@ -91,7 +91,6 @@ img.card-img-top {
 }
 
 .publication-item:hover {
-    transform: translateY(-1px);
     box-shadow: 0 8px 22px rgba(19, 40, 75, 0.08);
 }
 
