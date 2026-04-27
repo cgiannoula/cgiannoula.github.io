@@ -9,7 +9,7 @@
     66123 Saarbrücken<br>
     Germany</p>
     <p>Email: <a href="mailto:christina.giann@gmail.com">christina.giann@gmail.com</a><br>
-    Alternate email: <a href="mailto:cgiannoula@mpi-sws.org">cgiannoula@mpi-sws.org</a></p>
+    <!-- Alternate email: <a href="mailto:cgiannoula@mpi-sws.org">cgiannoula@mpi-sws.org</a> --></p>
     <p>This website is maintained by Christina Giannoula.</p>
   </div>
 </div>
