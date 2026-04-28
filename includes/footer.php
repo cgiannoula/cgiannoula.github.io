@@ -6,6 +6,7 @@
     <a href="/pages/privacy.php">Privacy Policy</a>
   </p>
   <p><span class="text-muted">&copy; Christina Giannoula. All rights reserved.</span></p>
+  <p>Template by <a href="http://www.Styleshout.com">Styleshout</a></p>
 </div>
 
 <!-- JS (load after content) -->
