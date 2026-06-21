@@ -314,3 +314,16 @@ a:hover {
 	font-style: italic;
 	color: #4b3426;
 }
+
+/* Remove default Bootstrap dropdown caret and use underline-on-hover for dropdown labels */
+.dropdown-toggle::after {
+    display: none !important;
+}
+.navbar-nav .dropdown-toggle {
+    text-decoration: none;
+}
+.navbar-nav .dropdown-toggle:hover,
+.navbar-nav .dropdown-toggle:focus {
+    text-decoration: underline;
+    outline: none;
+}
